@@ -11,7 +11,7 @@ import Gall from './qcomps/gallery_props'
 import TodoList from './qcomps/todos'
 import Sq from './components/square'
 import Item from './qcomps/props_item'
-import List from './qcomps/list_keys_id'
+//import List from './qcomps/list_keys_id'
 import Recipe from './qcomps/recipes'
 import Gallery from './qcomps/state'
 import PersonData from './components/stateObj'
@@ -19,11 +19,14 @@ import Form from './qcomps/stuckForm'
 import Thing from './components/snapshot2'
 import Queue from './components/queueUpdates'
 import Shop from './qcomps/shoppingCart'
+import Scoreboard from './qcomps/updObjectsForm'
+import List from './qcomps/artistsRemoveArr'
+import BucketList from './qcomps/arrObj'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <List />
+        <BucketList />
     </div>
   )
 }
